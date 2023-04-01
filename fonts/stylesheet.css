@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Averta CY';
+    src: url('AvertaCY-BoldItalic.woff2') format('woff2'),
+        url('AvertaCY-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY Extrathin';
+    src: url('AvertaCY-ExtrathinItalic.woff2') format('woff2'),
+        url('AvertaCY-ExtrathinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
+    src: url('AvertaCY-LightItalic.woff2') format('woff2'),
+        url('AvertaCY-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
+    src: url('AvertaCY-Thin.woff2') format('woff2'),
+        url('AvertaCY-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
+    src: url('AvertaCY-Extrabold.woff2') format('woff2'),
+        url('AvertaCY-Extrabold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
+    src: url('AvertaCY-SemiboldItalic.woff2') format('woff2'),
+        url('AvertaCY-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
+    src: url('AvertaCY-Semibold.woff2') format('woff2'),
+        url('AvertaCY-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
+    src: url('AvertaCY-Black.woff2') format('woff2'),
+        url('AvertaCY-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
+    src: url('AvertaCY-BlackItalic.woff2') format('woff2'),
+        url('AvertaCY-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
+    src: url('AvertaCY-Light.woff2') format('woff2'),
+        url('AvertaCY-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
+    src: url('AvertaCY-ExtraboldItalic.woff2') format('woff2'),
+        url('AvertaCY-ExtraboldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY Extrathin';
+    src: url('AvertaCY-Extrathin.woff2') format('woff2'),
+        url('AvertaCY-Extrathin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
+    src: url('AvertaCY-Regular.woff2') format('woff2'),
+        url('AvertaCY-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
+    src: url('AvertaCY-RegularItalic.woff2') format('woff2'),
+        url('AvertaCY-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
+    src: url('AvertaCY-Bold.woff2') format('woff2'),
+        url('AvertaCY-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
+    src: url('AvertaCY-ThinItalic.woff2') format('woff2'),
+        url('AvertaCY-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
