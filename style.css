@@ -32,16 +32,21 @@ body {
 header {
     display: flex;
     gap: 5%;
-    height: 10%;
+    height: 10vh;
     justify-content: center;
     align-items: center;
-    padding: 1% 8vw;
+    padding: 2vh 8vw;
     position: fixed;
     top: 0;
     width: 84vw;
     background-color: #FEF4FF;
     z-index: 10;
     transition: 0.3s;
+}
+
+.mob-menu-head,
+.open-menu {
+    display: none;
 }
 
 .header_logo {
@@ -685,4 +690,267 @@ footer {
 #back-to-top.backToTopAnim {
     transition: 0.5s;
     bottom: 2vw;
+}
+
+/* mobile */
+
+@media screen and (max-width: 770px) {
+    .open-menu {
+        display: flex;
+    }
+
+    .header-nav {
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 100vw;
+        background-color: #FEF4FF;
+        align-items: flex-start;
+    }
+
+    .header-nav li {
+        padding-left: 5vw;
+    }
+
+    .header-nav a {
+        font-size: 5vw;
+    }
+
+    .mob-menu-head {
+        display: grid;
+        grid-template-columns: 65% 20%;
+        padding: 5%;
+        gap: 10%;
+    }
+
+    .header_logo-mob img {
+        width: 100%;
+    }
+
+    .main-1 {
+        padding: 5%;
+        margin-top: 20vh;
+        height: 150vh;
+        background: #0081FF url("images/main-1-bg.png") no-repeat 75% 100%;
+    }
+
+    .main-1 h1 {
+        font-size: 8vw;
+        text-align: center;
+        margin-bottom: 10vw;
+    }
+
+    .main-1 p {
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    .main-1 p img {
+        height: 8vw;
+    }
+
+    .main-1-buttons {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .main-1-buttons a {
+        width: 100%;
+        height: 15vw;
+        font-size: 4vw;
+        margin: 2vw 0;
+    }
+
+    .main-2 {
+        padding: 20vw 0;
+    }
+
+    .main-2 h1 {
+        font-size: 8vw;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .main-2 p {
+        font-size: 4vw;
+        width: 90%;
+        text-align: center;
+        margin: 3vw auto;
+    }
+
+    .offers {
+        flex-direction: column;
+    }
+
+    .offer h2 {
+        font-size: 5vw;
+    }
+
+    .offer button {
+        font-size: 4vw;
+    }
+
+    .offer p {
+        display: none;
+    }
+
+    .o1, o3 {
+        height: auto;
+    }
+
+    .o2 {
+        justify-content: center;
+    }
+
+    .o2 h2 {
+        width: 100%;
+    }
+
+    .o2 .main-2-buttons {
+        margin: 5vw 0;
+    }
+    
+    .main-3 h1 {
+        font-size: 8vw;
+        margin: 10vw 0;
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: 5vw 0 10vw 0;
+    }
+
+    .main-3-item {
+        grid-template-rows: 1fr 18vw 0.8fr;
+        grid-template-columns: 13% 87%;
+    }
+
+    .main-3-item.button {
+        grid-template-rows: 15vw;
+    }
+
+    .main-3-item a {
+        font-size: 4vw;
+    }
+
+    .main-3-item b,
+    .main-3-item h2 {
+        font-size: 5vw;
+        margin: 4vw 0;
+        font-weight: 400;
+    }
+
+    .main-3-item h2 {
+        padding-left: 5vw;
+        font-weight: 600;
+        font-size: 4.5vw;
+    }
+
+    .main-3-item p {
+        font-weight: lighter;
+        font-size: 4vw;
+    }
+
+    .main-4 {
+        align-items: center;
+        width: 100%;
+    }
+
+    .main-4 h1 {
+        font-size: 9vw;
+    }
+
+    .main-4 p {
+        font-size: 4.5vw;
+        padding: 5% 2%;
+    }
+
+    .main-4-items {
+        flex-direction: column;
+        width: 100%;        
+    }
+
+    .main-4-item {
+        grid-template-columns: 85% 15%;
+        grid-template-rows: 1fr 1.5fr 0.8fr 0.5fr;
+        width: 70vw;
+        margin-bottom: 10vw;
+        padding: 0 10vw 10vw 10vw;
+    }
+
+    .main-4-item ul li {
+        font-size: 4vw;
+    }
+
+    .main-4-item .markers {
+        align-items: flex-end;
+    }
+
+    .main-4-item .flag {
+        margin-left: auto;
+    }
+
+    .price,
+    .main-4-item h2 {
+        font-size: 7vw;
+        gap: 5%;
+        margin: 10vw 0;
+    }
+
+    .main-4-item a {
+        margin: 0 auto 5vw auto;
+        width: 90%;
+        font-size: 5vw;
+        font-weight: 600;
+    }
+
+    .main-5 {
+        background-color: transparent;
+        background-size: 300%;
+        background-position: 50% 30%;
+    }
+
+    .main-5 h1 {
+        font-size: 8vw;
+        padding: 5%;
+    }
+
+    .tasks {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .task {
+        grid-template-rows: 1fr 3fr;
+    }
+
+    .tasks img {
+        position: relative;
+        top: 100%;
+    }
+
+    .task h2 {
+        font-size: 5vw;
+        margin: 4vw 0;
+        padding-left: 5vw;
+    }
+
+    .task b {
+        font-size: 5vw;
+        width: auto;
+        height: auto;
+        margin: 4vw 0;
+    }
+
+    .main-6 form {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
