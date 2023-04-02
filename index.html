@@ -19,24 +19,21 @@
                 <div class="stripe"></div>
             </button>
             <ul class="header-nav">
-                <div class="mob-menu-head">
-                    <a href="index.html" class="header_logo-mob"><img src="images/logo.png"></a>
-                    <button class="close-menu">Close</button>
-                </div>
                 <li><a href="#">Главная</a></li>
                 <li><a href="#">О нас</a></li>
                 <li><a href="#ourOffers">Наши услуги</a></li>
                 <li><a href="#workSteps">Этапы работы</a></li>
                 <li><a href="#priceList">Стоимость</a></li>
-                <li class="submenu">Ещё<img class="submenu-arrow" src="images/submenu-arrow.png"><ul>
+                <li class="submenu"><span>Ещё</span><img class="submenu-arrow" src="images/submenu-arrow.png"><ul>
                         <li><a href="#">Статьи</a></li>
                         <li><a href="#">Вакансии</a></li>
                 </ul></li>
-                <li class="contacts"><a href="tel:+79218741355" class="link-number">8 (499) 348-82-16</a>
-                    <a href="mailto:hello@softerio.ru" class="link-mail">hello@softerio.ru</a>
+                <li class="contacts">
+                    <a href="tel:+79218741355" class="link-number"><img src="images/link-number.png">8 (499) 348-82-16</a>
+                    <a href="mailto:hello@softerio.ru" class="link-mail"><img src="images/link-mail.png">hello@softerio.ru</a>
+                    <a class="wh_link" href="#"><img src="images/whatapp.png" alt="Our Whatsapp"></a>
+                    <a class="tg_link" href="#"><img src="images/telegram.png" alt="Our Telegram"></a>
                 </li>
-                <li  class="wh_link"><a href="#"><img src="images/whatapp.png" alt="Our Whatsapp"></a></li>
-                <li  class="tg_link"><a href="#"><img src="images/telegram.png" alt="Our Telegram"></a></li>
             </ul>
         </nav>
     </header>
@@ -231,6 +228,17 @@
                     <input name="radio" type="radio" id="money-5"><label for="money-5">1 000 000 - 2 000 000 руб.</label>
                     <input name="radio" type="radio" id="money-6"><label for="money-6">2 000 000 - 3 000 000 руб.</label>
                 </fieldset>
+                <fieldset class="budget-mob">
+                    <legend>Бюджет проекта:</legend>
+                    <select onfocus="this.size=3 ;" onblur="this.size=0;" onchange="this.size=1;this.blur()">
+                        <option value="">20 000 - 50 000 руб.</option>
+                        <option value="">50 000 - 100 000 руб.</option>
+                        <option value="">100 000 - 500 000 руб.</option>
+                        <option value="">500 000 - 1 000 000 руб.</option>
+                        <option value="">1 000 000 - 2 000 000 руб.</option>
+                        <option value="">2 000 000 - 3 000 000 руб.</option>
+                    </select>
+                </fieldset>
                 <fieldset class="contact-info">
                     <legend>Контакты:</legend>
                     <input placeholder="Your name" type="text">
@@ -254,11 +262,12 @@
                     <li><a href="#">Статьи</a></li>
                     <li><a href="#">Вакансии</a></li>
                 </ul></li>
-                <li class="contacts"><a href="#" class="link-number">8 (499) 348-82-16</a>
-                    <a href="#" class="link-mail">hello@softerio.ru</a>
+                <li class="contacts">
+                    <a href="tel:+79218741355" class="link-number">8 (499) 348-82-16</a>
+                    <a href="mailto:hello@softerio.ru" class="link-mail">hello@softerio.ru</a>
+                    <a class="wh_link" href="#"><img src="images/whatapp.png" alt="Our Whatsapp"></a>
+                    <a class="tg_link" href="#"><img src="images/telegram.png" alt="Our Telegram"></a>
                 </li>
-                <li  class="wh_link"><a href="#"><img src="images/whatapp.png" alt="Our Whatsapp"></a></li>
-                <li  class="tg_link"><a href="#"><img src="images/telegram.png" alt="Our Telegram"></a></li>
             </ul>
         </nav>
     </footer>
