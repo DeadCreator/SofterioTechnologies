@@ -743,6 +743,7 @@ footer {
         width: 90vw;
         padding: 2% 5vw;
         gap: 15vw;
+    
     }
 
     header .header_logo img {
@@ -756,11 +757,12 @@ footer {
         position: fixed;
         bottom: 0;
         right: -100%;
-        height: 85%;
+        height: 86vh;
         width: 100vw;
         background-color: #FEF4FF;
-        padding-top: 10%;
+        padding-top: 10vh;
         transition: 1s;
+        z-index: -10;
     }
 
     header .header-nav li {
